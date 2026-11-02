@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parveen Kumar | QA Automation Engineer</title>
+<meta name="description" content="Parveen Kumar - QA Automation Engineer, Quality Analyst and SDET. Playwright, TypeScript, API and software testing.">
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; scroll-behavior:smooth; }
+
+:root {
+  --bg:#080e1b;
+  --card:#111c30;
+  --blue:#38bdf8;
+  --text:#f1f5f9;
+  --muted:#a3b1c6;
+}
+
+body {
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial, sans-serif;
+  line-height:1.7;
+}
+
+.container { width:88%; max-width:1150px; margin:auto; }
+
+nav {
+  position:sticky; top:0; z-index:10;
+  background:#080e1bee;
+  border-bottom:1px solid #26364e;
+  padding:17px 0;
+}
+
+.nav-content {
+  display:flex; justify-content:space-between;
+  align-items:center; flex-wrap:wrap; gap:15px;
+}
+
+.logo { font-size:23px; font-weight:bold; color:var(--blue); }
+
+nav a {
+  color:var(--text); text-decoration:none;
+  margin-left:20px; font-size:14px;
+}
+
+nav a:hover { color:var(--blue); }
+
+section { padding:85px 0; }
+
+.hero {
+  min-height:85vh;
+  display:flex; align-items:center;
+}
+
+.hero-content {
+  display:grid; grid-template-columns:1.5fr 1fr;
+  align-items:center; gap:50px;
+}
+
+.tag { color:var(--blue); letter-spacing:2px; font-size:13px; }
+
+h1 { font-size:clamp(38px,5vw,62px); line-height:1.2; margin:15px 0; }
+
+h1 span, h2 span { color:var(--blue); }
+
+.hero p { color:var(--muted); max-width:620px; margin:18px 0; }
+
+.profile {
+  width:290px; height:340px; object-fit:cover;
+  border-radius:25px; border:3px solid var(--blue);
+  box-shadow:0 0 35px #38bdf833;
+  display:block; margin:auto;
+}
+
+.btn {
+  display:inline-block; padding:12px 23px;
+  border-radius:7px; text-decoration:none;
+  font-weight:bold; margin:10px 8px 0 0;
+  background:var(--blue); color:#07111f;
+}
+
+.btn-outline {
+  background:transparent; color:var(--blue);
+  border:1px solid var(--blue);
+}
+
+h2 { font-size:34px; margin-bottom:25px; }
+
+.subtitle { color:var(--muted); margin-bottom:30px; }
+
+.grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card {
+  background:var(--card); padding:25px;
+  border:1px solid #26364e; border-radius:14px;
+  transition:.3s;
+}
+
+.card:hover {
+  transform:translateY(-6px);
+  border-color:var(--blue);
+}
+
+.card h3 { color:var(--blue); margin-bottom:12px; }
+.card p, .card li { color:var(--muted); font-size:14px; }
+.card ul { padding-left:20px; }
+
+.skills {
+  display:flex; flex-wrap:wrap; gap:12px;
+}
+
+.skill {
+  background:#14243b; color:var(--blue);
+  border:1px solid #263e5c;
+  padding:9px 17px; border-radius:7px;
+  font-size:14px;
+}
+
+.timeline {
+  border-left:2px solid var(--blue);
+  padding-left:25px; margin-left:8px;
+}
+
+.timeline h3 { color:var(--blue); }
+
+.timeline p { color:var(--muted); margin:10px 0; }
+
+.project-links {
+  display:inline-block; margin-top:15px;
+  color:var(--blue); text-decoration:none;
+}
+
+.contact { text-align:center; }
+
+footer {
+  text-align:center; padding:25px;
+  border-top:1px solid #26364e;
+  color:var(--muted); font-size:13px;
+}
+
+@media(max-width:800px) {
+  .hero-content { grid-template-columns:1fr; text-align:center; }
+  .hero p { margin:18px auto; }
+  .grid { grid-template-columns:1fr; }
+  .profile { width:230px; height:270px; }
+  nav a { margin:5px 8px; }
+  .nav-content { justify-content:center; }
+  section { padding:60px 0; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="container nav-content">
+    <div class="logo">PK.</div>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="container hero-content">
+    <div>
+      <div class="tag">HELLO, WELCOME TO MY PORTFOLIO</div>
+      <h1>I'm Parveen <span>Kumar</span></h1>
+      <h2>QA Automation Engineer | SDET</h2>
+      <p>
+        I help deliver reliable software through quality engineering,
+        automation testing and thoughtful validation.
+        Experienced in Playwright, TypeScript, API testing
+        and end-to-end testing with 3+ years in QA.
+      </p>
+      <a class="btn" href="#projects">Explore Projects</a>
+      <a class="btn btn-outline" href="resume.pdf" download>Download Resume</a>
+    </div>
+
+    <div>
+      <img src="profile.png" alt="Parveen Kumar" class="profile">
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2>About <span>Me</span></h2>
+    <p class="subtitle">
+      Quality Analyst | QA Automation Engineer | Software Tester
+    </p>
+    <div class="card">
+      I am a QA Automation Engineer with 3+ years of experience
+      in software quality assurance, web application testing,
+      regression testing, API validation and test automation.
+
+      <br><br>
+      Currently working at Webkul Software Pvt. Ltd., Noida.
+      I work with Playwright and TypeScript to automate selected
+      workflows, validate application behavior and improve
+      regression testing consistency.
+
+      <br><br>
+      My focus is on identifying defects early, improving test
+      coverage and delivering dependable software experiences.
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2>Technical <span>Skills</span></h2>
+    <p class="subtitle">Technologies and testing practices I work with.</p>
+
+    <div class="skills">
+      <span class="skill">Playwright</span>
+      <span class="skill">TypeScript</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">Postman</span>
+      <span class="skill">REST API Testing</span>
+      <span class="skill">SQL</span>
+      <span class="skill">MySQL</span>
+      <span class="skill">Python Basics</span>
+      <span class="skill">Page Object Model</span>
+      <span class="skill">UI Automation</span>
+      <span class="skill">Functional Testing</span>
+      <span class="skill">Regression Testing</span>
+      <span class="skill">Smoke Testing</span>
+      <span class="skill">Sanity Testing</span>
+      <span class="skill">End-to-End Testing</span>
+      <span class="skill">Cross-Browser Testing</span>
+      <span class="skill">Git</span>
+      <span class="skill">GitLab</span>
+      <span class="skill">Agile / Scrum</span>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <h2>Professional <span>Experience</span></h2>
+
+    <div class="timeline">
+      <h3>Webkul Software Pvt. Ltd.</h3>
+      <strong>Quality Analyst / QA Automation Engineer</strong>
+      <p>Noida, India | October 2023 – Present</p>
+      <ul>
+        <li>Performed functional, regression, smoke and E2E testing.</li>
+        <li>Developed selected UI automation workflows using Playwright and TypeScript.</li>
+        <li>Designed positive, negative, boundary and exception scenarios.</li>
+        <li>Validated REST API requests and responses using Postman.</li>
+        <li>Reported defects with reproducible steps and supporting evidence.</li>
+        <li>Collaborated with developers to investigate root causes.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2>Featured <span>Projects</span></h2>
+    <p class="subtitle">
+      Product testing and automation experience.
+    </p>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Shopify Multi-Vendor Marketplace</h3>
+        <p>UI Automation | Functional | Regression Testing</p>
+        <ul>
+          <li>Seller registration and product management.</li>
+          <li>Inventory and order processing validation.</li>
+          <li>Playwright and TypeScript automation.</li>
+          <li>Positive, negative and boundary scenarios.</li>
+        </ul>
+        <a class="project-links"
+           href="https://webkul.com/blog/shopify-multivendor-marketplace-new-theme-launched/"
+           target="_blank" rel="noopener">View Product ↗</a>
+      </div>
+
+      <div class="card">
+        <h3>BookingCommerce</h3>
+        <p>Functional | E2E | Automation Testing</p>
+        <ul>
+          <li>Booking creation and time-slot selection.</li>
+          <li>Cancellation and rescheduling workflows.</li>
+          <li>Playwright automation scenarios.</li>
+          <li>Date and booking-status validation.</li>
+        </ul>
+        <a class="project-links"
+           href="https://webkul.com/blog/shopify-booking-app/"
+           target="_blank" rel="noopener">View Product ↗</a>
+      </div>
+
+      <div class="card">
+        <h3>UVdesk Ticket Management</h3>
+        <p>Workflow | API | Regression Testing</p>
+        <ul>
+          <li>Ticket creation and agent assignment.</li>
+          <li>Replies and ticket status transitions.</li>
+          <li>Playwright automation scenarios.</li>
+          <li>SQL-based data checks where applicable.</li>
+        </ul>
+        <a class="project-links"
+           href="https://www.uvdesk.com/en/"
+           target="_blank" rel="noopener">View Product ↗</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <h2>My <span>Education</span></h2>
+    <div class="grid">
+      <div class="card">
+        <h3>B.Tech – Computer Science & Engineering</h3>
+        <p>Ch. Devi Lal State Institute of Engineering & Technology</p>
+        <p>CGPA: 8.3 | 2020 – 2023</p>
+      </div>
+      <div class="card">
+        <h3>Diploma – Computer Engineering</h3>
+        <p>Guru Brahma Nand Govt. Polytechnic</p>
+        <p>76.5% | 2017 – 2020</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Let's <span>Connect</span></h2>
+    <p class="subtitle">
+      Open to connecting with QA teams and software professionals.
+    </p>
+
+    <p>Email: pk6222307@gmail.com</p>
+    <p>Phone: +91 9306116168</p>
+    <p>Location: Haryana, India</p>
+
+    <a class="btn" href="mailto:pk6222307@gmail.com">
+      Contact Me
+    </a>
+    <!-- Add your LinkedIn and GitHub profile URLs here -->
+  </div>
+</section>
+
+<footer>
+  © 2026 Parveen Kumar | QA Automation Engineer
+  <br>Built with HTML, CSS and JavaScript.
+</footer>
+
+</body>
+</html>
